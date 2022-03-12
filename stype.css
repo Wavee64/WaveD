@@ -14,8 +14,11 @@
   align-items: center;
   background: url(/img/b1.jpg) no-repeat;
   background-size: cover;
+
   background-position: center;
+  box-shadow: 0 10px 14px 7px #ccc;
 }
+
 
 .box-container .box {
   width: 700px;
@@ -67,6 +70,9 @@
 .box-container .box .content a:hover {
      color: rgb(250, 135, 250);
 }
+.box-container .box .content a:hover i {
+  color: rgb(209, 98, 236);
+}
 .box-container .box .content .fa {
   margin-right: 22px;
   color: rgb(223, 215, 223);
@@ -82,19 +88,21 @@
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  background: violet;
+  background: rgb(214, 175, 214);
   border-radius: 50px;
   height: 220px;
   width: 45px;
 }
 .box-container .box .share a {
-  margin: 15px;
+  margin: auto;
   color: #fff;
+  text-align: center;
   font-size: 24px;
+ 
 }
 
 .box-container .box .share a:hover {
-  color: rgb(179, 33, 123);
+  color: rgb(190, 96, 154);
 }
 @media (max-width: 812px) {
   body{
